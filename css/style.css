@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: white;
+    box-sizing: border-box;
+}
+div{
+
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+
+
+    border: solid 8px black;
+    box-shadow: 8px;
+    border-top: 80px;
+    border-left: 80px;
+}
+
+#box{
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    float: right;
+    top: 80px;
+    right: 100px;
+    z-index: 99;
+}
+
+
+#special{
+    height: 800px;
+    background-color: grey;
+    padding-top: 10px;
+
+}
+
+#special #one{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background: white;
+
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    border-top: 2px;
+    border-color: black;
+    text-align: center;
+
+
+}
